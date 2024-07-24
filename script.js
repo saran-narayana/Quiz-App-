@@ -60,7 +60,7 @@ let questions = [
      {
      numb: 6,
      question: "Your Question is Here",
-  
+     answer: "Option 1",
      options: [
        "Option 1",
        "option 2",
@@ -164,7 +164,7 @@ function showQuetions(index){
     const que_text = document.querySelector(".que_text");
 
     //creating a new span and div tag for question and option and passing the value using array index
-    
+
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
     let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
     + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
